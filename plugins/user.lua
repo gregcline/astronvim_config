@@ -9,4 +9,14 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "nvim-neotest/neotest-jest",
+  "folke/neodev.nvim",
+  {
+    "tpope/vim-fugitive",
+    dependencies = {
+
+      "tpope/vim-rhubarb",
+    },
+    cmd = "GBrowse",
+  },
 }
